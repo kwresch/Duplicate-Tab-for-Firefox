@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Duplicate Tab",
+	"version": "1.0",
+
+	"icons": {
+		"16": "icons/duplicate-16.png",
+		"32": "icons/duplicate-32.png",
+		"48": "icons/duplicate-48.png",
+		"96": "icons/duplicate-96.png"
+	},
+
+	"permissions": [
+		"activeTab",
+		"contextMenus"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/duplicate-32.png",
+		"default_title": "Duplicate Tab"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
